@@ -1,2 +1,2 @@
 # FileEx
-This is a File Explorer. This is coded wit batch.
+This is a File Explorer. This is coded with batch.
