@@ -18,6 +18,7 @@ pause >nul
 
 :script1
 echo fileviewer - See a file !
+echo changecolor - Change the color !
 echo ====================
 set fileex="__"
 set /p fileex="FileEx> "
@@ -25,6 +26,7 @@ goto command
 
 :command
 if %fileex%==fileviewer    (goto script2)
+if %fileex%==changecolor    (goto changecolor)
 goto script1
 
 :script2
@@ -66,5 +68,12 @@ type %file%
 echo ====================
 echo Press any key to continue...
 pause >nul
+cls
+goto main
+
+:changecolor
+set mycolor="__"
+set /p mycolor="The color ?> "
+color %mycolor%
 cls
 goto main
