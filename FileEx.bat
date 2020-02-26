@@ -8,18 +8,19 @@ goto title
 goto script1
 
 :title
-echo ====== FileEx ======
+echo ----- FileEx -----
 echo v1.0.0
 echo By haydenledean
-echo ====================
+echo --------------------
 echo Press any key to continue...
-echo ====================
+echo --------------------
 pause >nul
 
 :script1
+echo --------------------
 echo fileviewer - See a file !
 echo changecolor - Change the color !
-echo ====================
+echo --------------------
 set fileex="__"
 set /p fileex="FileEx> "
 goto command
@@ -31,9 +32,9 @@ goto script1
 
 :script2
 cls
-echo ===================
-echo === File Viewer ===
-echo ===================
+echo -------------------
+echo --- File Viewer ---
+echo -------------------
 set file="__"
 set /p file="File ?> "
 goto script3
@@ -44,7 +45,7 @@ if not exist %file% (goto filerror)
 if exist %file%     (goto filefound)
 
 :filerror
-echo %cd% don't exist
+echo %file% don't exist
 echo Press any key to continue...
 pause >nul
 cls
@@ -65,7 +66,8 @@ pause >nul
 :typefile
 cls
 type %file%
-echo ====================
+type blankline.txt
+echo -----------------------------
 echo Press any key to continue...
 pause >nul
 cls
