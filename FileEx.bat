@@ -9,8 +9,8 @@ goto script1
 
 :title
 echo ----- FileEx -----
-echo v1.0.0
-echo By haydenledean
+echo v1.0.1
+echo (c) forevertoo
 echo --------------------
 echo Press any key to continue...
 echo --------------------
@@ -18,8 +18,8 @@ pause >nul
 
 :script1
 echo --------------------
-echo fileviewer - See a file !
-echo changecolor - Change the color !
+echo fileviewer - See the content of a file !
+echo changecolor - Change the color of FileEx !
 echo --------------------
 set fileex="__"
 set /p fileex="FileEx> "
