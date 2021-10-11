@@ -1,11 +1,12 @@
 # FileEx
-This is a File Explorer. This is coded with batch.
+FileEx is an interactive batch software that is easy to use.
 
-# How to use it ?
-You need to have a Microsoft Windows computer and click the file to run it.
+# Can i run it on my computer?
+If you have a Microsoft Windows computer you can run FileEx.
+A Windows7 up to Windows10 computer is recommanded to use FileEx.
 
-# Is it safe ?
-Yes this is safe.
+# Is it safe?
+Yes, FileEx is safe.
 
-# Still in development ?
-Yes. We are still updating FileEx.
+# Is it still in developpment?
+Yes, we are still working on FileEx.
